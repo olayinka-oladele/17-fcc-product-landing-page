@@ -2,28 +2,9 @@
   "connector": {
     "name": "local",
     "options": {
-      "pattern": [
-        "**",
-        "!.git/**",
-        "!node_modules/**"
-      ]
+      "pattern": ["**", "!.git/**", "!node_modules/**"]
     }
   },
-  "extends": [
-    "development"
-  ],
-  "formatters": [
-    "stylish"
-  ],
-  "hints": {
-    "compat-api/css": [
-      "default",
-      {
-        "ignore": [
-          "-webkit-text-size-adjust",
-          "-webkit-text-size-adjust"
-        ]
-      }
-    ]
-  }
+  "extends": ["development"],
+  "formatters": ["stylish"]
 }

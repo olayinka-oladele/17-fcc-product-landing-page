@@ -1,11 +1,3 @@
-/* Example of @import use
-This imports the `reset.css` file */
-@import "./reset.css";
-
-/* For testing purposes, delete this code */
-
-/** global element styling **/
-
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
 * {
@@ -31,8 +23,6 @@ a {
   color: #000;
   text-decoration: none;
 }
-
-/** global classes styling **/
 
 .container {
   max-width: 1000px;
@@ -143,6 +133,10 @@ nav > ul {
   text-align: center;
   height: 200px;
   margin-top: 50px;
+}
+
+.product > h2 {
+  margin-top: 15px;
 }
 
 #hero > h2 {
@@ -257,13 +251,20 @@ nav > ul {
   font-weight: 700;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
-.product > h2 {
-  margin-top: 15px;
-}
-
 .product > ol {
   margin: 15px 0;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+footer > ul > li {
+  padding: 0 10px;
 }
 
 .product > ol > li {
@@ -286,13 +287,6 @@ nav > ul {
   #pricing {
     flex-direction: column;
   }
-
-  .product {
-    max-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 10px;
-  }
 }
 
 footer {
@@ -304,17 +298,4 @@ footer {
 footer > ul {
   display: flex;
   justify-content: flex-end;
-}
-
-/* stylelint-disable-next-line no-descending-specificity */
-footer > ul > li {
-  padding: 0 10px;
-}
-
-footer > span {
-  margin-top: 5px;
-  display: flex;
-  justify-content: flex-end;
-  font-size: 0.9em;
-  color: #444;
 }
