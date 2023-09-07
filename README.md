@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://17-fcc-product-landing-page.netlify.app/livedemo.com)
+[Live Demo Link](https://17-fcc-product-landing-page.netlify.app)
 
 ### Development (Running locally)
 
