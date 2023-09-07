@@ -1,27 +1,36 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This is one of required projects to earn your certification, and for your product landing page to market a product of your choice.
 
-![screenshot](./app_screenshot.png)
-
-Additional description of the project and its features.
+![screenshot](app_screenshot.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 form elements
+- `h1`,`h2`,`p`, `select`, `form`, `button`, `div`, `span`
+- `footer`, `lo`, `ìnput`, `li`, `iframe`,.
+- CSS properties
+- CSS Background for page aesthetic using background-color, `background-image`,
+  `box-shadow`, `background-position`,
+  background-repeat
+  `text-shadow`, etc.
+- `CSS Typography properties font-size`, `font-style`, `font-family`, `text-align`, `color`, etc
+- `CSS Box Model properties padding`, `margin`, `width`,`line-height`, `box-sizing`,`border` etc
+- CSS Positioning properties
+  `position`, `relative`, `fixed`, `blocked`,etc.
+- CSS Transitioning properties
+  `transition`.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://17-fcc-product-landing-page.netlify.app)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git git@github.com:olayinka-oladele/17-fcc-product-landing-page.git
 
 ```
 
@@ -65,14 +74,13 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
-- [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@olayinka-oladele](https://github.com/olayinka-oladele)
+- Freecodecamp: [@olayinka-oladele](https://freecodecamp.com/author)
+- Linkedin: [@olayinka-oladele](https://www.linkedin.com/in/author/)
+- Instagram: [@olayinka-oladele](https://instagram.com/drhappylinkolayinka?igshid=YWYwM2I1ZDdmOQ==)
 
 ## 🤝 Contributing
 
@@ -86,9 +94,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page
 
 ## 📝 License
 
